@@ -1,0 +1,144 @@
+<html>
+        <head>
+
+          <link rel="shortcut icon" type="image/png" href="logo.ico">
+          <!--title-->
+          <title> Standard College </title>
+      
+
+          <!--External style sheet-->
+          <link rel="stylesheet" type="text/css" href="Mainpage.css"><br>
+
+           <style>
+
+
+        .delete   {
+
+                          border: none;
+                          border-radius:;  
+                          height: 30px;
+                          width: 180px;
+                          padding-left:10px; 
+                          padding-right:15px;
+                          cursor: pointer;
+                          background:#101010;
+                          color:red;
+                          font-family: Gotham;
+                          border:1px solid #0a0a0a;
+                          border-top-right-radius:15px;
+                          border-top-left-radius:15px;
+                          border-bottom-right-radius:15px;
+                          border-bottom-left-radius:15px;
+                          border-right-width: 95px;
+                          border-left-width: 95px;
+                    }
+
+
+         .delete:hover {
+
+                          background-color:none;
+                          color:white;
+                          transition: 0.5s;
+                          border: 0.1px solid #0a0a0a;
+                        }
+                      </style>
+</head>
+
+
+
+
+<!--Body background-->
+<body bgcolor="#0a0a0a">
+
+<!-- h2 heading-->
+<h2 style="color:#00bcd4;text-align:center;font-family:Coda-Heavy;background-color:none;">
+<hr color="#202020" size="1">
+INSERT-STUDENT DATA<hr color="#202020" size="1">
+</h2><br><br>
+
+      
+<!--html with php link-->
+<form action="sita.php" method="POST">
+  
+<!--Form table data-->
+<table align="center" border="0" cellspacing="5" cellpadding="5">
+                
+                  
+            
+
+             <tr>
+             <td>STUDENT ID</td>
+             <td><input type="text" class="delete" name="si" placeholder="ENTER YOUR ID"></td>
+             </tr></p>
+
+
+             <tr>
+             <td>NAME</td>
+             <td><input type="text" class="delete" name="na" placeholder="ENTER YOUR NAME"></td>
+             </tr></p>
+
+
+            <tr>
+            <td>CITY</td>
+            <td><select  Name="ci" class="delete">
+                  <option>                                  </option>
+                  <option value="Batticaloa">   Batticaloa  </option>
+                  <option value="Trinco">       Trinco      </option>
+                  <option value="Ampara">       Ampara      </option>
+                  <option value="Kandy">        Kandy       </option>
+                  <option value="colombo">      colombo     </option>
+                  <option value="Galle">        Galle       </option>
+            </select></td>  
+            </tr></p> 
+
+
+            <tr>
+            <td>MOBILE</td>
+            <td><input type="int" name="mo" class="delete" placeholder="ENTER YOUR MOBILE"></td>
+            </tr></P>
+
+
+            <tr>
+            <td>DATE OF BIRTH</td>
+            <td><input type="date" name="da" class="delete"></td>
+            </tr></P>
+
+
+
+            <tr>
+            <td>EMAIL</td>
+            <td><input type="text" name="em" class="delete" placeholder="ENTER YOUR MAIL"></td>
+            </tr>
+
+
+            <tr>
+            <td>ADMISION FEES </td>
+            <td><input type="int" name="ad" class="delete" placeholder="ENTER YOUR FEES"></td>
+            </tr> 
+
+
+
+
+</table><br><br>
+
+
+<!--Submit and reset button-->
+<table cellspacing="1" width="300" align="center">
+
+
+
+            <tr>
+            <td><input type="submit" class="submit" name="sub" Value="S UBMIT"></td>
+            <td><input type="reset" class="submit3" name="res" Value="R ESET"></td>
+            </tr>
+
+
+</table>
+
+
+
+
+
+</form>       
+</body>
+</html>

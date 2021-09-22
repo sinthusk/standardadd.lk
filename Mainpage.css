@@ -1,0 +1,337 @@
+ /* Curved text box */
+
+    .textbox  { 
+                  border:none; 
+                  height: 35px;
+                  width:300px;
+                  color:lightgrey;
+                  background-color:#0e0e0e;
+                  border-radius:5px;  
+                  padding-left: 14px;
+                  border-bottom: inset;
+                  border-bottom-color:#202020;
+              } 
+
+
+      body    {
+                  color:white;    
+                  text-align: center;
+                  font-family: Gotham;
+               }
+      
+
+      .mobile   {
+                  border: none; 
+                  border-radius:15px;  
+                  height: 25px;
+                  width:170px;
+                  padding-left:10px; 
+                  padding-right:10px;
+                  cursor: pointer;
+                  color:lightgrey;
+                  background-color:#0e0e0e;
+                  border-bottom: inset;
+                  border-bottom-color:#202020;
+              }
+
+              .city   {
+                  border: none; 
+                  border-radius:15px;  
+                  height: 25px;
+                  width:170px;
+                  padding-left:10px; 
+                  padding-right:10px;
+                  cursor: pointer;
+                  color:lightgrey;
+                  background-color:#0e0e0e;
+                  border-bottom: inset;
+                  border-bottom-color:#202020;
+              }
+
+  .submit     {
+
+                  border: none;
+                  border-radius:none;  
+                  height: 20px;
+                  width: 150px;
+                  padding-left:10px; 
+                  padding-right:15px;
+                  cursor: pointer;
+                  background:#101010;
+                  color:#00bcd4;
+                  font-family: Gotham;
+                  border: 1px solid #202020;
+                  border-top-left-radius: none;
+                  border-top-right-radius:none;
+                  border-right-width: 30px;
+                  border-left-width: 30px;
+              }
+
+
+.submit:hover {
+
+                  background-color:none;
+                  color:#00bcd4;
+                  transition: 0.5s;
+                  border: 0.1px solid #00bcd4 ;
+      }
+
+     
+
+
+
+   .u{
+                 position: absolute;
+                 background: none;
+                 padding-top: 1px;
+                 float: left;
+                 overflow: hidden;
+                 width: 50px;
+                 height: 50px;
+                 cursor: pointer;
+                 padding-left: 50px;
+                 padding-bottom: 20px;
+
+}
+      
+   
+
+       .submit2{
+
+                  border: none;
+                  border-radius:none;  
+                  height: 20px;
+                  width: 150px;
+                  padding-left:10px; 
+                  padding-right:15px;
+                  cursor: pointer;
+                  background:#101010;
+                  color:green;
+                  font-family: Gotham;
+                  border: 1px solid #202020;
+                  border-bottom-left-radius:none;
+                  border-bottom-right-radius:none;
+                  border-right-width: 30px;
+                  border-left-width: 30px;
+      
+  
+
+
+
+     }
+
+
+    .submit2:hover {
+
+        background-color:none;
+        color:green;
+        transition: 0.5s;
+        border: 0.1px solid green ;
+      }
+
+        .submit3{
+
+      border: none;
+      border-radius:none;  
+      height: 20px;
+      width: 150px;
+      padding-left:10px; 
+      padding-right:15px;
+      cursor: pointer;
+      background:#101010;
+      color:#00bcd4;
+      font-family: Gotham;
+      border: 1px solid #202020;
+      border-bottom-left-radius:none;
+      border-top-right-radius:none;
+      border-right-width: 30px;
+      border-left-width: 30px;
+      
+  
+
+
+
+     }
+
+
+    .submit3:hover {
+
+        background-color:none;
+        color:#00bcd4;
+        transition: 0.5s;
+        border: 0.1px solid #00bcd4 ;
+      }
+      
+          .submit4{
+
+      border: none;
+      border-radius:none;  
+      height: 20px;
+      width: 150px;
+      padding-left:10px; 
+      padding-right:15px;
+      cursor: pointer;
+      background:#101010;
+      color:red;
+      font-family: Gotham;
+      border: 1px solid #202020;
+      border-bottom-right-radius:none;
+      border-bottom-left-radius:none;
+      border-right-width: 30px;
+      border-left-width: 30px;
+      
+  
+
+
+
+     }
+
+
+    .submit4:hover {
+
+        background-color:none;
+        color:red;
+        transition: 0.5s;
+        border: 0.1px solid red;
+      }
+
+
+
+  .subupdate{
+
+      border: none;
+      border-radius:none;  
+      height: 20px;
+      width: 150px;
+      padding-left:10px; 
+      padding-right:15px;
+      cursor: pointer;
+      background:#101010;
+      color:white;
+      font-family: Gotham;
+      border: 1px solid #202020;
+      border-top-left-radius:none;
+      border-top-right-radius:none;
+      border-right-width: 30px;
+      border-left-width: 30px;
+      
+  
+
+
+
+     }
+
+
+    .subupdate:hover {
+
+        background-color:none;
+        color:green;
+        transition: 0.5s;
+        border: 0.1px solid green ;
+      }
+
+
+
+  .resupdate{
+
+      border: none;
+      border-radius:none;  
+      height: 20px;
+      width: 150px;
+      padding-left:10px; 
+      padding-right:15px;
+      cursor: pointer;
+      background:#101010;
+      color:white;
+      font-family: Gotham;
+      border: 1px solid #202020;
+      border-top-left-radius:none;
+      border-top-right-radius:none;
+      border-right-width: 30px;
+      border-left-width: 30px;
+      
+  
+
+
+
+     }
+
+
+    .resupdate:hover {
+
+        background-color:none;
+        color:#00bcd4;
+        transition: 0.5s;
+        border: 0.1px solid #00bcd4 ;
+      }
+
+
+
+       .delete{
+
+      border: none;
+      border-radius:none;  
+      height: 20px;
+      width: 150px;
+      padding-left:10px; 
+      padding-right:15px;
+      cursor: pointer;
+      background:#101010;
+      color:white;
+      font-family: Gotham;
+      border: 1px solid #202020;
+      border-top-left-radius:none;
+      border-top-right-radius:none;
+      border-right-width: 30px;
+      border-left-width: 30px;
+      
+  
+
+
+
+     }
+
+
+    .delete:hover {
+
+        background-color:none;
+        color:red;
+        transition: 0.5s;
+        border: 0.1px solid red;
+      }
+
+
+        .delete1   {
+
+                          border: none;
+                          border-radius:;  
+                          height: 30px;
+                          width: 180px;
+                          padding-left:10px; 
+                          padding-right:15px;
+                          cursor: pointer;
+                          background:#101010;
+                          color:red;
+                          font-family: Gotham;
+                          border:1px solid #0a0a0a;
+                          border-top-right-radius:15px;
+                          border-top-left-radius:15px;
+                          border-bottom-right-radius:15px;
+                          border-bottom-left-radius:15px;
+                          border-right-width: 95px;
+                          border-left-width: 95px;
+                    }
+
+
+         .delete1:hover {
+
+                          background-color:none;
+                          color:white;
+                          transition: 0.5s;
+                          border: 0.1px solid #0a0a0a;
+                        }
+
+
+
+     
+     
